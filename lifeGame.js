@@ -174,6 +174,7 @@ $("#jsonGrid").click(function() {
   Grid = new GridClass(json.nbX, json.nbY)
   Grid.updateCells(json.coloriedCell)
   $(".square").click(function() {
+		  if (Game.phase != "Setting up the grid") return
       var idString = $(this).attr('id')
       var coor = idString.split(',')
       switch (Grid.grid[coor[1]][coor[0]].color) {
@@ -189,6 +190,7 @@ $("#jsonGrid").click(function() {
   })
 })
 $(".square").click(function() {
+    if (Game.phase != "Setting up the grid") return
     var idString = $(this).attr('id')
     var coor = idString.split(',')
     switch (Grid.grid[coor[1]][coor[0]].color) {
