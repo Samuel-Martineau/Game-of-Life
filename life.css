@@ -1,0 +1,55 @@
+.square {
+  display: inline-block;
+  margin-bottom: 0;
+  height: 20px;
+  width: 20px;
+  border-color: "black";
+  border-width: 1px;
+  border-style: solid;
+}
+.row {
+  margin: -4px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+/*     Boutton créé avec https://www.bestcssbuttongenerator.com/#/0      */
+.info {
+  background-color:#44c767;
+	-moz-border-radius:9px;
+	-webkit-border-radius:9px;
+	border-radius:9px;
+	border:4px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:13px 41px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+  position: fixed;
+  right: 5vw;
+  top: 10vh;
+  margin-top: -2.5em;
+  text-align: center;
+}
+#jsonGrid{
+  top: 20vh;
+}
+
+.info:hover {
+  background-color:#5cbf2a;
+}
+#numberOfTimes {
+  font-family:Arial;
+	font-size:60px;
+  color:#ff0000;
+  font-weight: bold;
+  position: fixed;
+  left: 5vw;
+  top: 20vh;
+  margin-top: -2.5em;
+}
