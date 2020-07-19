@@ -1,7 +1,0 @@
-# Ce dossier est utilisé pour afficher ce projet sur mon site web (https://smartineau.me)
-# This folder is used to display this project on my website (https://smartineau.me)
-titre = "Jeu de la vie de Conway"
-etiquettes = [ "html", "css", "js" ]
-dossier_site_web_statique = "/"
-contenu = "/README.md"
-date_de_creation = 2020-06-21T21:19:24.415Z
